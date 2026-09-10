@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Genealogy Flip-Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📖 Family Genealogy Flip-Book</h1>
+            <p class="subtitle">Interactive Photo Album</p>
+        </header>
+
+        <div class="flipbook-container">
+            <div class="book">
+                <div class="book-spine"></div>
+                
+                <!-- Left Page -->
+                <div class="page page-left" id="leftPage">
+                    <div class="page-content" id="leftContent">
+                        <!-- Content loaded dynamically -->
+                    </div>
+                </div>
+
+                <!-- Right Page -->
+                <div class="page page-right" id="rightPage">
+                    <div class="page-content" id="rightContent">
+                        <!-- Content loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button id="prevBtn" class="btn btn-prev" title="Previous Page">
+                ◀ Previous
+            </button>
+            <span class="page-counter">
+                Page <span id="currentPage">1</span> of <span id="totalPages">1</span>
+            </span>
+            <button id="nextBtn" class="btn btn-next" title="Next Page">
+                Next ▶
+            </button>
+        </div>
+
+        <!-- Navigation Dots -->
+        <div class="dots-container" id="dotsContainer"></div>
+
+        <!-- Info Panel -->
+        <div class="info-panel">
+            <h2 id="albumTitle"></h2>
+            <p id="albumDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
