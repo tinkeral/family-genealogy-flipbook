@@ -1,0 +1,105 @@
+{
+  "album": {
+    "title": "Family Genealogy Album",
+    "description": "Interactive photo album for family history",
+    "familyCrest": {
+      "imageUrl": "images/family-crest.png",
+      "familyName": "Smith Family",
+      "motto": "Honor, Heritage & History"
+    },
+    "sections": [
+      {
+        "id": 1,
+        "title": "Early Years",
+        "description": "Family history from the 1930s-1950s",
+        "photoIds": [1, 2, 3]
+      },
+      {
+        "id": 2,
+        "title": "Growing Up",
+        "description": "Family milestones and celebrations from 1960s-1970s",
+        "photoIds": [4, 5, 6]
+      },
+      {
+        "id": 3,
+        "title": "Family Reunions",
+        "description": "Annual gatherings and special events",
+        "photoIds": [7, 8]
+      }
+    ],
+    "photos": [
+      {
+        "id": 1,
+        "title": "Grandparents - 1930s",
+        "description": "Early family photo",
+        "date": "1930",
+        "imageUrl": "images/photo1.jpg",
+        "names": ["John Smith", "Mary Smith"],
+        "sectionId": 1
+      },
+      {
+        "id": 2,
+        "title": "Family at Home",
+        "description": "Sunday afternoon at the homestead",
+        "date": "1940",
+        "imageUrl": "images/photo2.jpg",
+        "names": ["John Smith", "Mary Smith", "Children"],
+        "sectionId": 1
+      },
+      {
+        "id": 3,
+        "title": "Parents' Childhood",
+        "description": "Growing up in the 1950s",
+        "date": "1950",
+        "imageUrl": "images/photo3.jpg",
+        "names": ["James Smith", "Patricia Smith"],
+        "sectionId": 1
+      },
+      {
+        "id": 4,
+        "title": "Wedding Day",
+        "description": "Parents' wedding photograph",
+        "date": "1970",
+        "imageUrl": "images/photo4.jpg",
+        "names": ["James Smith", "Patricia Anderson"],
+        "sectionId": 2
+      },
+      {
+        "id": 5,
+        "title": "Summer Picnic",
+        "description": "Family outing in the countryside",
+        "date": "1975",
+        "imageUrl": "images/photo5.jpg",
+        "names": ["Family Members"],
+        "sectionId": 2
+      },
+      {
+        "id": 6,
+        "title": "Children's Birthday",
+        "description": "Birthday celebration at home",
+        "date": "1978",
+        "imageUrl": "images/photo6.jpg",
+        "names": ["Children"],
+        "sectionId": 2
+      },
+      {
+        "id": 7,
+        "title": "Family Reunion 1985",
+        "description": "Annual family gathering",
+        "date": "1985",
+        "imageUrl": "images/photo7.jpg",
+        "names": ["Extended Family"],
+        "sectionId": 3
+      },
+      {
+        "id": 8,
+        "title": "Reunion Group Photo",
+        "description": "All family members together",
+        "date": "1985",
+        "imageUrl": "images/photo8.jpg",
+        "names": ["Smith Family"],
+        "sectionId": 3
+      }
+    ]
+  }
+}
